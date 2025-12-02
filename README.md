@@ -35,32 +35,39 @@ This project analyzes customer shopping behavior by performing data cleaning, tr
 ```python
 # Example snippet
 df['Review Rating'] = df.groupby('Category')['Review Rating'].transform(
-    lambda x: x.fillna(x.median())
-)
+    lambda x: x.fillna(x.median()))
+```
+
 ---
+
 ## 2️⃣ Upload to MySQL
 
--Connect to MySQL using SQLAlchemy.
-- Create database table customer.
-- Upload cleaned DataFrame.
+ - Connect to MySQL using SQLAlchemy.
+ - Create database table customer.
+ - Upload cleaned DataFrame.
 
 ```python
 engine = create_engine(f"mysql+pymysql://{user}:{password}@{host}:{port}/{database}")
 df.to_sql('customer', con=engine, if_exists='replace', index=False)
+```
+
 ---
+
 ## 3️⃣ SQL Analysis
 
-Sample queries for customer behavior insights:
+• Sample queries for customer behavior insights:
 
-Total revenue by gender.
+• Total revenue by gender.
 
-Customers using discounts but spending above average.
+• Customers using discounts but spending above average.
 
-Customers with multiple purchases.
+• Customers with multiple purchases.
 
-Products never sold.
+• Products never sold.
 
-Average purchase amount per customer.
+• Average purchase amount per customer.
+
+---
 
 ## 4️⃣ Power BI Dashboard
 
@@ -68,19 +75,19 @@ Connect Power BI to MySQL database.
 
 Visualizations created:
 
-Total revenue and sales trends.
+• Total revenue and sales trends.
 
-Customer segmentation by age and purchase frequency.
+• Customer segmentation by age and purchase frequency.
 
-Discount and promo code usage analysis.
+• Discount and promo code usage analysis.
 
-Category-wise purchase insights.
+• Category-wise purchase insights.
 
-Dashboard supports business recommendations based on customer behavior.
+• Dashboard supports business recommendations based on customer behavior.
 
 ---
 
-### Business Recommendation
+## Business Recommendation
 
 Identify top-performing products and categories.
 
@@ -89,5 +96,14 @@ Target promotional campaigns to high-value customers.
 Offer personalized discounts to increase repeat purchases.
 
 Analyze age group and purchase frequency for better marketing strategies.
-df['age_group'] = pd.qcut(df['age'], 4, labels=['Young Adult','Adult','Middle-age','Senior'])
+
+---
+
+## Tools & Libraries
+
+• Python: pandas, pymysql, sqlalchemy
+
+• Database: MySQL
+
+• Visualization: Power BI
 
