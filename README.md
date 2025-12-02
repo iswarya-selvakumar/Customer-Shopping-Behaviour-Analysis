@@ -88,15 +88,31 @@ Visualizations created:
 
 ---
 
-## Business Recommendation
+## Business Recommendations
 
-Identify top-performing products and categories.
+• Focus on High‑Value Customer Segments
+Young Adults and Middle‑Age groups generate the highest spending. Introduce age‑specific product bundles, targeted email campaigns, and personalized recommendations.
 
-Target promotional campaigns to high-value customers.
+• Strengthen Category‑Wise Strategy
+Clothing and Accessories drive most revenue. Increase inventory depth, highlight these categories in seasonal campaigns, and negotiate better supplier terms to increase margin.
 
-Offer personalized discounts to increase repeat purchases.
+• Reduce Unnecessary Discount Usage
+Many discount users still spend above the average amount. Shift to conditional discounts (e.g., spend threshold, loyalty-based coupons) instead of blanket offers.
 
-Analyze age group and purchase frequency for better marketing strategies.
+• Improve Subscription Program Value
+Subscribers show higher average spend. Promote subscription benefits through onboarding journeys, exclusive deals, and free shipping to increase sign‑ups.
+
+• Improve Shipping Experience
+Express shipping customers spend slightly more. Offer dynamic shipping upgrades based on cart value or membership status.
+
+• Enhance Customer Loyalty Tracking
+Returning and loyal customers provide steady revenue. Introduce tiers (Silver/Gold/Platinum), reward points, and anniversary discounts.
+
+• Optimize Underperforming Products
+Identify items with low purchase frequency and high discount dependence. Apply product redesign, price adjustments, or phase‑out strategy.
+
+• Use Review Rating Insights to Improve Quality
+Items with lower average ratings should be flagged for quality checks. Follow up with dissatisfied customers to improve retention.
 
 ---
 
