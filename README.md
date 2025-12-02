@@ -36,6 +36,7 @@ This project analyzes customer shopping behavior by performing data cleaning, tr
 # Example snippet
 df['Review Rating'] = df.groupby('Category')['Review Rating'].transform(
     lambda x: x.fillna(x.median()))
+df['age_group'] = pd.qcut(df['age'], 4, labels=['Young Adult','Adult','Middle-age','Senior'])
 ```
 
 ---
